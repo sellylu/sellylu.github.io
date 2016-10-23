@@ -92,7 +92,7 @@
 						$('.main.style2')
 							.scrollex({
 								mode:		'middle',
-								delay:		100,
+								delay:		20,
 								initialize:	function() { $(this).addClass('inactive'); },
 								terminate:	function() { $(this).removeClass('inactive'); },
 								enter:		function() { $(this).removeClass('inactive'); },
@@ -104,7 +104,7 @@
 							.scrollex({
 								top:		'40vh',
 								bottom:		'30vh',
-								delay:		50,
+								delay:		20,
 								initialize:	function() {
 
 												var t = $(this);
@@ -157,7 +157,7 @@
 						$('#contact')
 							.scrollex({
 								top:		'50%',
-								delay:		50,
+								delay:		20,
 								initialize:	function() { $(this).addClass('inactive'); },
 								terminate:	function() { $(this).removeClass('inactive'); },
 								enter:		function() { $(this).removeClass('inactive'); },
