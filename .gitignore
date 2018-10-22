@@ -1,3 +1,8 @@
 .DS_Store
 */.DS_Store
+*.zip
 README.txt
+phpmyadmin/
+biiclab/
+checkup/
+demo/
