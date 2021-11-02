@@ -1,3 +1,21 @@
+.fit {
+	width: 100%;
+	height: auto;
+}
+@media screen and (max-width: 736px) {
+	.fit {
+		width: 30vw;
+		height: auto;
+	}
+}
+
+a {
+	color: #c26666;
+}
+a:hover {
+	text-decoration: none;
+}
+
 /* Icons */
 	ul.icons {
 		cursor: default;
@@ -50,3 +68,9 @@
 			text-align: center;
 			width: 2em;
 		}
+
+.description > li {
+	margin: 0;
+	font-size: 80%;
+	line-height: 1.75;
+}

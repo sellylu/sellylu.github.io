@@ -34,9 +34,12 @@
 			<!-- Nav -->
 			<nav id="nav">
 				<a href="#" class="icon fa-home"><span>Home</span></a>
-				<a href="#education" class="icon fa-graduation-cap"><span>Education</span></a>
-				<a href="#publication" class="icon fa-folder"><span>Publications</span></a>
-				<a href="#contact" class="icon fa-envelope"><span>Contact</span></a>
+				<a href="#about" class="icon fa-address-card"><span>About Me</span></a>
+				<a href="#experience" class="icon fa-briefcase"><span>Experience</span></a>
+				<!-- <a href="#education" class="icon fa-graduation-cap"><span>Education</span></a> -->
+				<a href="#project" class="icon fa-folder"><span>Projects</span></a>
+				<!-- <a href="#publication" class="icon fa-book"><span>Publications</span></a> -->
+				<!-- <a href="#contact" class="icon fa-envelope"><span>Contact</span></a> -->
 			</nav>
 
 			<!-- Main -->
@@ -45,84 +48,136 @@
 				<!-- Me -->
 				<article id="home" class="panel intro">
 					<header>
-						<h1>Chih-Chuan(Selly) LU</h1>
-						<p>Master student in <a href="http://biic.ee.nthu.edu.tw/" style="color:inherit;">BIIC Lab</a>, NTHU, Taiwan.</p>
+						<h1>呂志娟<br>Chih-Chuan (Selly) LU</h1>
+						<p>Machine Learning Engineer at Qualcomm Semiconductor Limited</p>
+						<ul class="icons" style="margin: 1em 0 0 0;">
+							<!-- <li><a href="http://www.facebook.com/lu721/" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li> -->
+							<li><a href="mailto:selly.lu@outlook.com" class="icon alt fa-envelope"><span class="label">E-mail</span></a></li>
+							<li><a href="http://www.linkedin.com/in/cclu" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="http://github.com/sellylu" class="icon alt fa-github"><span class="label">Github</span></a></li>
+						</ul>
 					</header>
-					<a href="#education" class="jumplink pic">
-						<span class="arrow icon fa-chevron-right"><span>See my work</span></span>
+					<a href="#experience" class="jumplink pic">
+						<!-- <span class="arrow icon fa-chevron-right"><span>See my work</span></span> -->
 						<img src="images/selly.JPG" alt="selly lu" />
 					</a>
 				</article>
 
+				<!-- About -->
+				<article id="about" class="panel">
+					<header>
+						<h2>About Me</h2>
+					</header>
+					<p>Selly received her B.S. degree and M.S. degree both in Electrical Engineering under supervision of Prof. Chi-Chun(Jeremy) Lee from National Tsing-Hua University, Taiwan in 2017 and 2020. Her study emphasizes on learning speech front-end network for emotion recognition.</p>
+					<h3>Technical Strengths</h3>
+					<table>
+						<tbody>
+							<tr>
+								<td>Computer Languages</td>
+								<td>Python, C/C++, MATLAB, Java, Javascript, PHP, Shell script</td>
+							</tr>
+							<tr>
+								<td>Software &amp; Tools</td>
+								<td>TensorFlow, Scikit-learn, PyTorch, Kaldi, LaTex, HTML, CSS</td>
+							</tr>
+						</tbody>
+					</table>
+				</article>
+				<!-- experience -->
+				<article id="experience" class="panel">
+					<header>
+						<h2>Work Experience</h2>
+					</header>
+					<section>
+						<div class="row">
+							<div class="col-2 col-12-small"><img src="images/qualcomm.svg" class="fit"></div>
+							<div class="col-10 col-12-small">
+								<h3>Qualcomm Semiconductor Limited</h3>
+								<p><em>Machine Learning Engineer in Center for Operations, Manufacturing Engineering, and Testing (COMET) • Jul 2020 – Current</em></p>
+								<ul class="description">
+									<li>Build a wafer defect recognition model above 90% accuracy and integrate it with the automation system to recommend disposition.</li>
+									<li>Provide new automation solution for yield management team to recognize potentially failed dies which saves their 50% work time.</li>
+									<li>Mentor for 3 junior employees and interns in independently maintaining existing projects in three months.</li>
+								</ul>
+							</div>
+						</div>
+					</section>
 
-				<!-- Education -->
-				<article id="education" class="panel">
 					<header>
 						<h2>Education</h2>
 					</header>
 					<section>
 						<div class="row">
-							<div class="3u 12u$(mobile)"><img src="images/nthu.png" class="fit"></div>
-							<div class="9u$ 12u$(mobile)">
-								<h3><a href="http://nthu-en.web.nthu.edu.tw/bin/home.php" style="color:inherit;">National Tsing Hua University</a></h3>
-								<p style="margin:0;"><em>Electrical Engineering, M.S. Degree • Sep. 2017 – Present</em></p>
-								<ul style="margin:0;">
-									<li>Advisor: Professor <a href="http://biic.ee.nthu.edu.tw/cclee.php" style="color: inherit;">Chi-Chun (Jeremy) Lee</a></li>
-									<li><a href="http://biic.ee.nthu.edu.tw/" style="color: inherit;">Behavioral Informatics &amp; Interaction Computation(BIIC) Lab</a></li>
-									<li>Emphasis in speech emotion recognition and deep learning</li>
-									<li>Music Information Retrieval, Teaching Assistant • Spring 2019</li>
-									<li>Honor Society: Phi Tau Phi</li>
-									<!-- <li>Course TA: Music Information Retrieval	(2019 Spring CS5731)</li> -->
+							<div class="col-2 col-12-small"><img src="images/nthu.png" class="fit"></div>
+							<div class="col-10 col-12-small">
+								<h3>National Tsing Hua University</h3>
+								<p><em>M.S. in Electrical Engineering • Sep. 2017 – Apr. 2020</em></p>
+								<ul class="description">
+									<li>Thesis: <i>"Observe Critical Data in Emotion Recognition Using a Speech Front-end Network Learned from
+Media Data In-the-Wild"</i>, supervised by <a href="http://biic.ee.nthu.edu.tw/cclee.php" style="color: inherit;">Prof. Chi-Chun (Jeremy) Lee</a></li>
+									<li>Teaching Assistant: Music Information Retrieval (2019 Spring CS5731 by Dr. Li Su)</li>
+									<li>Honor Society: Phi Tau Phi(Top 3% of master’s graduands that are exellent in academic performance.)</li>
 								</ul>
-								<!-- <p style="margin-bottom:2em;"><em>Music Information Retrieval, Teaching Assistant • Spring 2019</em></p> -->
-								<p style="margin-bottom:2em;"></p>
 							</div>
 						</div>
 						<div class="row">
-							<div class="3u 12u$(mobile)"><img src="images/nthu.png" class="fit"></div>
-							<div class="9u$ 12u$(mobile)">
-								<h3><a href="http://nthu-en.web.nthu.edu.tw/bin/home.php" style="color:inherit;">National Tsing Hua University</a></h3>
-								<p style="margin:0;"><em>Electrical Engineering, B.S. Degree • Sep. 2013 – Jun. 2017</em></p>
-								<ul style="margin:0;">
+							<div class="col-2 col-12-small"><img src="images/nthu.png" class="fit"></div>
+							<div class="col-10 col-12-small">
+								<h3>National Tsing Hua University</h3>
+								<p><em>B.S in Electrical Engineering • Sep 2013 – Jun 2017</em></p>
+								<ul class="description">
 									<li>Emphasis in digital signal processing</li>
-									<li>BIIC Lab, Research Assistant • Jun. 2016 – Jun. 2017</li>
+									<li>Research Assistant supervised by Prof. Chi-Chun Lee<i>(May 2016 – Jun. 2017)</i></li>
 								</ul>
-								<!-- <em>BIIC Lab, Research Assistant • Jun. 2016 – Jun. 2017</em></p> -->
-								<p style="margin-bottom:2em;"></p>
 							</div>
 						</div>
-						<p>NTHU is a research university located in Hsinchu City, Taiwan, and it's generally considered to be one of the best universities in Taiwan.</p>
 					</section>
 
 				</article>
 
-				<!-- Publications -->
-				<article id="publication" class="panel">
+				<!-- Project -->
+				<article id="project" class="panel">
+					<header>
+						<h2>Projects</h2>
+					</header>
+					<section>
+						<div class="row">
+							<div class="col-3 col-12-small">
+								<a href="//aheadmedicine.com/"><img src="images/ahead.png" alt="" class="fit"></a>
+							</div>
+							<div class="col-9 col-12-small">
+								<h3>AI for Leukemia Diagnosis (AHEAD)</h3>
+								<p><em>Machine Learning Scientist • May 2017 – Sep 2019</em></p>
+								<ul class="description">
+									<li>The recidual leukemia cell detection is 100+ times faster than traditional method and achieve 90% accuracy.</li>
+									<li>AML disease assessment and outcome prediction achieves around 80% accuracy for mortality and relapse prediction in next-3-month.</li>
+									<li>Exhibited at FutureTech2018, CES2019</li>
+								</ul>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-3 col-12-small">
+								<a href="//www.letsbld.com"><img src="images/nzxt.png" alt="" class="fit"></a>
+							</div>
+							<div class="col-9 col-12-small">
+								<h3>NZXT BLD</h3>
+								<p><em>May 2016 – Feb 2017</em></p>
+								<ul class="description">
+									<li>We built an FPS prediction model by analyzing over ten million gaming-hour data; and based on it, providing recommendation of PC elements to achieve the desired FPS.</li>
+								</ul>
+							</div>
+						</div>
+					</section>
+
 					<header>
 						<h2>Publications</h2>
 					</header>
-					<!-- <p>
-						Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit.
-						Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-						luctus elit eget interdum.
-					</p> -->
-					<ul>
-						<li><strong>Chih-Chuan Lu</strong>, Jeng-Lin Li, Yu-Fen Wang, Bor-Sheng Ko, Jih-Luh Tang and Chi-Chun Lee, "A BLSTM with Attention Network for Predicting Acute Myeloid Leukemia Patient's Prognosis using Comprehensive Clinical Parameters", in Proceedings of Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), 2019</li>
-						<li>Bor-Sheng Ko, Yu-Fen Wang, <strong>Chih-Chuan Lu</strong>, Jeng-Lin Li, Chi-Chun Lee, Jih-Luh Tang, and Hwei-Fang Tien, "Relapse and Mortality Prediction of Acute Myeloid Leukemia Patients Using Deep Bidirectional Long Short-Term Memory-Deep Neural Network Architecture" in Annual Meeting of American Society of Hematology (ASH), 2018</li>
-						<li><strong>Chih-Chuan Lu</strong>, Jeng-Lin Li, Chi-Chun Lee, "Learning an Arousal-Valence Speech Front-End Network using Media Data In-the-Wild for Emotion Recognition", in Proceedings of ACM on the Audio/Visual Emotion Challenge and Workshop (AVEC), 2018</li>
-					</ul>
+					<ol style="font-size: 80%; line-height: 1.75">
+						<li><strong>Chih-Chuan Lu</strong>, Jeng-Lin Li, Yu-Fen Wang, Bor-Sheng Ko, Jih-Luh Tang and Chi-Chun Lee, "A BLSTM with Attention Network for Predicting Acute Myeloid Leukemia Patient's Prognosis using Comprehensive Clinical Parameters", in Proceedings of Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), 2019 [Oral presentation]&emsp;<a href="https://doi.org/10.1109/EMBC.2019.8856524">doi</a></li>
+						<li>Bor-Sheng Ko, Yu-Fen Wang, <strong>Chih-Chuan Lu</strong>, Jeng-Lin Li, Chi-Chun Lee, Jih-Luh Tang, and Hwei-Fang Tien, "Relapse and Mortality Prediction of Acute Myeloid Leukemia Patients Using Deep Bidirectional Long Short-Term Memory-Deep Neural Network Architecture", in Annual Meeting of American Society of Hematology (ASH), 2018&emsp;<a href="https://doi.org/10.1182/blood-2018-99-115778">doi</a></li>
+						<li><strong>Chih-Chuan Lu</strong>, Jeng-Lin Li, Chi-Chun Lee, "Learning an Arousal-Valence Speech Front-End Network using Media Data In-the-Wild for Emotion Recognition", in Proceedings of ACM on the Audio/Visual Emotion Challenge and Workshop (AVEC), 2018 [Oral presentation]&emsp;<a href="https://doi.org/10.1145/3266302.3266306">doi</a></li>
+					</ol>
 					<section>
-						<!-- <div class="row">
-							<div class="col-4 col-6-medium col-12-small">
-								<a href="#" class="image fit"><img src="images/pic01.jpg" alt=""></a>
-							</div>
-							<div class="col-4 col-6-medium col-12-small">
-								<a href="#" class="image fit"><img src="images/pic02.jpg" alt=""></a>
-							</div>
-							<div class="col-4 col-6-medium col-12-small">
-								<a href="#" class="image fit"><img src="images/pic03.jpg" alt=""></a>
-							</div>
-						</div> -->
 					</section>
 				</article>
 
@@ -133,14 +188,10 @@
 					</header>
 					<section>
 						<h3>E-mail:&nbsp;</h3>
-						<p><a href="mailto:lu721@gapp.nthu.edu.tw" style="color:inherit;">lu721@gapp.nthu.edu.tw</a></p>
-						<div>
-							<h3>Address:&nbsp;</h3>
-							<p>Room 713, EECS building, No. 101, Section 2, Kuang-Fu Road, 30013 Hsinchu City, Taiwan(R.O.C.)</p>
-						</div>
-
+						<p><a href="mailto:selly.lu@outlook.com" style="color:inherit;">selly.lu@outlook.com</a></p>
 						<ul class="icons" style="margin-top: 1em;">
 							<!-- <li><a href="http://www.facebook.com/lu721/" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li> -->
+							<li><a href="mailto:selly.lu@outlook.com" class="icon alt fa-envelope"><span class="label">E-mail</span></a></li>
 							<li><a href="http://www.linkedin.com/in/cclu" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
 							<li><a href="http://github.com/sellylu" class="icon alt fa-github"><span class="label">Github</span></a></li>
 						</ul>
